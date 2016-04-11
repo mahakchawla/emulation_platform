@@ -1,0 +1,7426 @@
+vvp -M. -msha sha.vvp
+Configuring ESDL
+Product: Icarus Verilog
+/home/puneet/code/vlang-uvm/src/uvm/base/uvm_root.d(1326) @ #0: reporter [UVM/RELNOTES] 
+----------------------------------------------------------------
+UVM-1.2
+(C) 2012-2016 Coverify Systems Technology
+(C) 2007-2014 Mentor Graphics Corporation
+(C) 2007-2014 Cadence Design Systems, Inc.
+(C) 2006-2014 Synopsys, Inc.
+(C) 2011-2013 Cypress Semiconductor Corp.
+(C) 2013-2014 NVIDIA Corporation
+----------------------------------------------------------------
+
+  ***********       IMPORTANT RELEASE NOTES         ************
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_OBJECT_DO_NOT_NEED_CONSTRUCTOR undefined.
+  See http://www.eda.org/svdb/view.php?id=3770 for more details.
+
+      (Specify +UVM_NO_RELNOTES to turn off this notice)
+
+2b5328e1d000
+2b5328e1d000 -- tb 
+2b5328e1d000
+Simulation Started
+@ #0: reporter [TPRGED] Type name 'uvm_report_handler' already registered with factory. No string-based lookup support for multiple types with the same type name.
+/home/puneet/code/vlang-uvm/src/uvm/base/uvm_root.d(472) @ #0: reporter [RNTST] Running test ...
+Waiting for Verilog
+VCD info: dumpfile filename.vcd opened for output.
+Generated 0 seq with 54 transactions
+sha.d(68) @ #0: env.agent.sequencer@@avl_st_seq [avl_st_seq] Starting sequence
+ > Got req to handle
+Got Vlang transaction
+ treset =1; tdata =00; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =5e; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =65; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =58; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =44; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =34; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =66; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =3d; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =72; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =4d; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =64; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =6a; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =76; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =5c; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =68; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =72; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =65; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =67; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =41; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =60; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =54; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =70; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =32; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =61; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =66; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =54; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =4c; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =74; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =48; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =49; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =79; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =53; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =60; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =5b; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =4b; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =72; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =62; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =4d; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =32; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =4c; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =41; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =67; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =5c; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =44; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =3a; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =37; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =58; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =5c; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =37; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =67; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =3a; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =36; tend = 0
+sha.d(92) @ #0: env.agent.sequencer@@avl_st_seq [avl_st] Finishing sequence
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =30; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =4b; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =79; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =00; tend = 1
+Generated 1 seq with 28 transactions
+sha.d(68) @ #0: env.agent.sequencer@@avl_st_seq [avl_st_seq] Starting sequence
+ > Got req to handle
+Got Vlang transaction
+ treset =1; tdata =00; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =38; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =63; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =64; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =5b; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =56; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =5e; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =4a; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =73; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =5e; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =3c; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =50; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =57; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =4e; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =73; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =67; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =38; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =66; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =37; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =46; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =6f; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =53; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =6c; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =41; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =5c; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =66; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =52; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =68; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =76; tend = 0
+sha.d(92) @ #0: env.agent.sequencer@@avl_st_seq [avl_st] Finishing sequence
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =00; tend = 1
+Generated 2 seq with 53 transactions
+sha.d(68) @ #0: env.agent.sequencer@@avl_st_seq [avl_st_seq] Starting sequence
+ > Got req to handle
+Got Vlang transaction
+ treset =1; tdata =00; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =45; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =49; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =68; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =54; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =46; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =55; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =31; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =5d; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =33; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =41; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =36; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =35; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =54; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =3f; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =70; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =7a; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =60; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =77; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =77; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =52; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =6e; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =5e; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =72; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =61; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =5e; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =66; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =31; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =5b; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =46; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =79; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =52; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =38; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =3a; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =36; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =6e; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =5d; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =50; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =41; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =7a; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =6e; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =62; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =51; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =6b; tend = 0
+sha.d(92) @ #0: env.agent.sequencer@@avl_st_seq [avl_st] Finishing sequence
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =33; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =60; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =45; tend = 0
+Generated 3 seq with 45 transactions
+sha.d(68) @ #0: env.agent.sequencer@@avl_st_seq [avl_st_seq] Starting sequence
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =78; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =5f; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =7a; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =48; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =6b; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =64; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =69; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =00; tend = 1
+ > Got req to handle
+Got Vlang transaction
+ treset =1; tdata =00; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =49; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =75; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =65; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =77; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =33; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =30; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =3f; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =34; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =47; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =64; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =79; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =6d; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =34; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =55; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =45; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =67; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =6c; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =71; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =59; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =48; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =66; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =35; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =56; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =4c; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =55; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =62; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =52; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =53; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =40; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =5f; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =5a; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =5c; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =51; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =5a; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =5c; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =7a; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =49; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =6e; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =49; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =3d; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =5b; tend = 0
+sha.d(92) @ #0: env.agent.sequencer@@avl_st_seq [avl_st] Finishing sequence
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =39; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =4d; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =5e; tend = 0
+Generated 4 seq with 62 transactions
+sha.d(68) @ #0: env.agent.sequencer@@avl_st_seq [avl_st_seq] Starting sequence
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =36; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =00; tend = 1
+ > Got req to handle
+Got Vlang transaction
+ treset =1; tdata =00; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =3e; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =70; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =79; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =6d; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =6c; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =52; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =4d; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =45; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =61; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =75; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =78; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =55; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =45; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =73; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =62; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =5f; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =78; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =58; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =5c; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =6a; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =39; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =53; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =6b; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =72; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =70; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =37; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =5e; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =6b; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =33; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =4b; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =57; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =31; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =38; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =31; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =78; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =41; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =66; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =76; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =3b; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =75; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =77; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =65; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =31; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =6f; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =34; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =58; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =75; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =4f; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =59; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =6d; tend = 0
+sha.d(92) @ #0: env.agent.sequencer@@avl_st_seq [avl_st] Finishing sequence
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =53; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =5c; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =41; tend = 0
+Generated 5 seq with 60 transactions
+sha.d(68) @ #0: env.agent.sequencer@@avl_st_seq [avl_st_seq] Starting sequence
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =30; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =32; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =34; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =63; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =6d; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =3b; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =47; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =3f; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =44; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =00; tend = 1
+ > Got req to handle
+Got Vlang transaction
+ treset =1; tdata =00; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =38; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =5c; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =58; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =4e; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =69; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =4d; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =52; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =3c; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =41; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =33; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =34; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =48; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =41; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =4b; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =79; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =74; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =5c; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =70; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =6e; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =75; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =46; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =63; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =40; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =35; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =71; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =3e; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =34; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =77; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =4b; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =6b; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =3b; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =78; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =68; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =69; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =3a; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =67; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =68; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =4c; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =57; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =4f; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =6b; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =5c; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =74; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =47; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =36; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =44; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =38; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =6e; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =4b; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =39; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =5a; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =73; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =55; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =56; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =4b; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =79; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =57; tend = 0
+sha.d(92) @ #0: env.agent.sequencer@@avl_st_seq [avl_st] Finishing sequence
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =6e; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =68; tend = 0
+Generated 6 seq with 26 transactions
+sha.d(68) @ #0: env.agent.sequencer@@avl_st_seq [avl_st_seq] Starting sequence
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =42; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =00; tend = 1
+ > Got req to handle
+Got Vlang transaction
+ treset =1; tdata =00; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =48; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =37; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =70; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =4b; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =62; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =5c; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =60; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =38; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =55; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =4a; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =47; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =44; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =44; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =36; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =31; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =58; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =4c; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =57; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =68; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =5e; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =73; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =6c; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =48; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =3a; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =6f; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =77; tend = 0
+sha.d(92) @ #0: env.agent.sequencer@@avl_st_seq [avl_st] Finishing sequence
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =00; tend = 1
+Generated 7 seq with 46 transactions
+sha.d(68) @ #0: env.agent.sequencer@@avl_st_seq [avl_st_seq] Starting sequence
+ > Got req to handle
+Got Vlang transaction
+ treset =1; tdata =00; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =3c; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =64; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =41; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =74; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =75; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =58; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =38; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =39; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =54; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =5e; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =44; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =6c; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =3d; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =45; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =4a; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =6d; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =3b; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =51; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =5f; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =4b; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =4a; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =76; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =6e; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =3c; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =70; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =4d; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =37; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =76; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =4e; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =48; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =3f; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =4f; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =6d; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =6d; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =69; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =3c; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =44; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =6d; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =69; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =4a; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =42; tend = 0
+sha.d(92) @ #0: env.agent.sequencer@@avl_st_seq [avl_st] Finishing sequence
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =42; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =4e; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =34; tend = 0
+Generated 8 seq with 27 transactions
+sha.d(68) @ #0: env.agent.sequencer@@avl_st_seq [avl_st_seq] Starting sequence
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =34; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =78; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =00; tend = 1
+ > Got req to handle
+Got Vlang transaction
+ treset =1; tdata =00; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =53; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =37; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =69; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =79; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =4e; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =41; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =6a; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =6e; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =70; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =5f; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =3d; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =5d; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =35; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =79; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =35; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =3c; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =4e; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =41; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =5f; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =70; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =62; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =39; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =3b; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =42; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =79; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =30; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =6b; tend = 0
+sha.d(92) @ #0: env.agent.sequencer@@avl_st_seq [avl_st] Finishing sequence
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =00; tend = 1
+Generated 9 seq with 63 transactions
+sha.d(68) @ #0: env.agent.sequencer@@avl_st_seq [avl_st_seq] Starting sequence
+ > Got req to handle
+Got Vlang transaction
+ treset =1; tdata =00; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =76; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =59; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =58; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =3b; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =6a; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =4d; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =69; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =5e; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =49; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =5f; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =6c; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =70; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =5c; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =3d; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =5d; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =78; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =7a; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =5d; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =52; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =65; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =66; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =41; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =34; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =6e; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =33; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =34; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =3e; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =74; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =6b; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =70; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =37; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =70; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =6e; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =4b; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =41; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =60; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =5b; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =53; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =47; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =6b; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =36; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =63; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =33; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =52; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =5c; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =3f; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =6a; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =74; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =42; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =6d; tend = 0
+sha.d(92) @ #0: env.agent.sequencer@@avl_st_seq [avl_st] Finishing sequence
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =36; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =77; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =6f; tend = 0
+Generated 10 seq with 28 transactions
+sha.d(68) @ #0: env.agent.sequencer@@avl_st_seq [avl_st_seq] Starting sequence
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =5a; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =71; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =3c; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =39; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =62; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =64; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =62; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =5a; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =4f; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =73; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =00; tend = 1
+ > Got req to handle
+Got Vlang transaction
+ treset =1; tdata =00; tend = 0
+sha.d(92) @ #0: env.agent.sequencer@@avl_st_seq [avl_st] Finishing sequence
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =40; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =74; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =58; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =6f; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =59; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =49; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =3d; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =4f; tend = 0
+Generated 11 seq with 54 transactions
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =43; tend = 0
+sha.d(68) @ #0: env.agent.sequencer@@avl_st_seq [avl_st_seq] Starting sequence
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =6c; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =3d; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =6c; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =60; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =34; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =6b; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =5f; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =37; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =79; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =60; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =57; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =51; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =42; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =65; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =4d; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =65; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =59; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =77; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =31; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =00; tend = 1
+ > Got req to handle
+Got Vlang transaction
+ treset =1; tdata =00; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =6e; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =41; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =53; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =4f; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =76; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =51; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =76; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =74; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =40; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =48; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =34; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =67; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =46; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =58; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =37; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =56; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =3b; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =4f; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =60; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =76; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =52; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =66; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =5b; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =66; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =75; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =32; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =5d; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =32; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =59; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =61; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =3b; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =31; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =73; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =5a; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =4c; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =40; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =72; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =4b; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =5a; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =6a; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =3e; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =72; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =49; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =67; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =5b; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =36; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =50; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =3a; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =67; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =44; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =5b; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =39; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =79; tend = 0
+sha.d(92) @ #0: env.agent.sequencer@@avl_st_seq [avl_st] Finishing sequence
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =42; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =00; tend = 1
+Generated 12 seq with 37 transactions
+sha.d(68) @ #0: env.agent.sequencer@@avl_st_seq [avl_st_seq] Starting sequence
+ > Got req to handle
+Got Vlang transaction
+ treset =1; tdata =00; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =78; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =47; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =4f; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =4b; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =37; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =54; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =5b; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =5a; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =74; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =6c; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =38; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =59; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =33; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =78; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =5f; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =65; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =38; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =5f; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =4a; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =4d; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =66; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =5b; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =46; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =6d; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =37; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =5a; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =71; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =54; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =69; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =30; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =69; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =63; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =73; tend = 0
+sha.d(92) @ #0: env.agent.sequencer@@avl_st_seq [avl_st] Finishing sequence
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =77; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =3f; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =35; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =55; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =00; tend = 1
+Generated 13 seq with 24 transactions
+sha.d(68) @ #0: env.agent.sequencer@@avl_st_seq [avl_st_seq] Starting sequence
+ > Got req to handle
+Got Vlang transaction
+ treset =1; tdata =00; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =4a; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =37; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =31; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =3d; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =3a; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =3f; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =52; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =63; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =43; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =42; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =33; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =75; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =3e; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =59; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =50; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =6a; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =5e; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =42; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =44; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =75; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =75; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =41; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =78; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =64; tend = 0
+sha.d(92) @ #0: env.agent.sequencer@@avl_st_seq [avl_st] Finishing sequence
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =00; tend = 1
+Generated 14 seq with 62 transactions
+sha.d(68) @ #0: env.agent.sequencer@@avl_st_seq [avl_st_seq] Starting sequence
+ > Got req to handle
+Got Vlang transaction
+ treset =1; tdata =00; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =3b; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =67; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =36; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =4b; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =43; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =35; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =67; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =69; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =45; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =30; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =6b; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =40; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =71; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =30; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =56; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =51; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =6c; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =3d; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =57; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =3b; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =6b; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =32; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =30; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =46; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =5a; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =4c; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =48; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =40; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =46; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =5b; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =52; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =69; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =58; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =6e; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =70; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =62; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =54; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =72; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =79; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =67; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =77; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =66; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =79; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =60; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =60; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =5b; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =58; tend = 0
+sha.d(92) @ #0: env.agent.sequencer@@avl_st_seq [avl_st] Finishing sequence
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =53; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =6e; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =51; tend = 0
+Generated 15 seq with 54 transactions
+sha.d(68) @ #0: env.agent.sequencer@@avl_st_seq [avl_st_seq] Starting sequence
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =71; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =73; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =31; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =4b; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =58; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =33; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =44; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =30; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =38; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =76; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =5a; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =61; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =00; tend = 1
+ > Got req to handle
+Got Vlang transaction
+ treset =1; tdata =00; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =5f; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =4c; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =6a; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =58; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =52; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =5c; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =44; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =63; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =39; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =74; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =6a; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =67; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =63; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =75; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =3b; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =76; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =54; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =32; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =62; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =78; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =58; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =60; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =3f; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =45; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =6c; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =49; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =3d; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =40; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =6e; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =49; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =3a; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =5b; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =6c; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =4f; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =40; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =78; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =3d; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =6b; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =63; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =3d; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =31; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =48; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =65; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =32; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =5d; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =48; tend = 0
+sha.d(92) @ #0: env.agent.sequencer@@avl_st_seq [avl_st] Finishing sequence
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =5a; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =35; tend = 0
+Generated 16 seq with 51 transactions
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =43; tend = 0
+sha.d(68) @ #0: env.agent.sequencer@@avl_st_seq [avl_st_seq] Starting sequence
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =31; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =33; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =6e; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =74; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =69; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =00; tend = 1
+ > Got req to handle
+Got Vlang transaction
+ treset =1; tdata =00; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =61; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =75; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =55; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =34; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =4c; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =75; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =41; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =57; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =6f; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =5f; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =49; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =4d; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =6a; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =6c; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =67; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =6b; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =4d; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =77; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =74; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =30; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =71; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =3b; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =34; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =6e; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =70; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =3c; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =33; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =5a; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =53; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =35; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =3a; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =38; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =4a; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =71; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =6a; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =3c; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =4c; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =53; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =70; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =4b; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =38; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =69; tend = 0
+sha.d(92) @ #0: env.agent.sequencer@@avl_st_seq [avl_st] Finishing sequence
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =45; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =62; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =3e; tend = 0
+Generated 17 seq with 43 transactions
+sha.d(68) @ #0: env.agent.sequencer@@avl_st_seq [avl_st_seq] Starting sequence
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =6d; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =38; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =30; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =70; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =41; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =54; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =00; tend = 1
+ > Got req to handle
+Got Vlang transaction
+ treset =1; tdata =00; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =3a; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =78; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =34; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =55; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =34; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =37; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =78; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =62; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =53; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =30; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =57; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =38; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =4f; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =47; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =68; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =78; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =70; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =5c; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =5f; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =44; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =3e; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =3b; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =66; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =6c; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =43; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =6d; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =48; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =53; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =52; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =32; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =79; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =6f; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =50; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =78; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =65; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =73; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =5c; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =35; tend = 0
+sha.d(92) @ #0: env.agent.sequencer@@avl_st_seq [avl_st] Finishing sequence
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =6f; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =48; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =43; tend = 0
+Generated 18 seq with 48 transactions
+ > Got req to handle
+sha.d(68) @ #0: env.agent.sequencer@@avl_st_seq [avl_st_seq] Starting sequence
+Got Vlang transaction
+ treset =0; tdata =6a; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =42; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =00; tend = 1
+ > Got req to handle
+Got Vlang transaction
+ treset =1; tdata =00; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =5b; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =60; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =48; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =4b; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =41; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =5d; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =4b; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =44; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =6f; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =48; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =5d; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =55; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =3e; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =36; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =53; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =5a; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =63; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =59; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =33; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =5c; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =4a; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =37; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =5a; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =42; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =79; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =3f; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =62; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =71; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =49; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =33; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =4c; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =32; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =3b; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =78; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =3c; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =4e; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =42; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =73; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =6e; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =6d; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =75; tend = 0
+ > Got req to handle
+sha.d(92) @ #0: env.agent.sequencer@@avl_st_seq [avl_st] Finishing sequence
+Got Vlang transaction
+ treset =0; tdata =3d; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =42; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =61; tend = 0
+Generated 19 seq with 46 transactions
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =41; tend = 0
+sha.d(68) @ #0: env.agent.sequencer@@avl_st_seq [avl_st_seq] Starting sequence
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =42; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =61; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =5c; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =00; tend = 1
+ > Got req to handle
+Got Vlang transaction
+ treset =1; tdata =00; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =3c; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =79; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =67; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =42; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =34; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =43; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =37; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =47; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =6b; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =35; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =52; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =43; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =75; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =4e; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =61; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =33; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =6a; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =3a; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =5b; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =53; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =48; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =69; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =3f; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =31; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =36; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =4b; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =76; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =4d; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =33; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =54; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =44; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =30; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =5b; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =66; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =5d; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =4a; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =3a; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =69; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =39; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =57; tend = 0
+sha.d(92) @ #0: env.agent.sequencer@@avl_st_seq [avl_st] Finishing sequence
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =7a; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =42; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =54; tend = 0
+Generated 20 seq with 44 transactions
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =67; tend = 0
+sha.d(68) @ #0: env.agent.sequencer@@avl_st_seq [avl_st_seq] Starting sequence
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =73; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =3f; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =00; tend = 1
+ > Got req to handle
+Got Vlang transaction
+ treset =1; tdata =00; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =46; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =78; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =5a; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =44; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =32; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =57; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =56; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =51; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =45; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =3e; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =3e; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =55; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =64; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =3e; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =52; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =47; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =6a; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =42; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =3f; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =44; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =36; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =55; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =5a; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =41; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =3f; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =69; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =67; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =35; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =5f; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =4f; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =6d; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =35; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =42; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =44; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =7a; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =70; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =78; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =73; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =74; tend = 0
+sha.d(92) @ #0: env.agent.sequencer@@avl_st_seq [avl_st] Finishing sequence
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =54; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =48; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =55; tend = 0
+Generated 21 seq with 58 transactions
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =65; tend = 0
+sha.d(68) @ #0: env.agent.sequencer@@avl_st_seq [avl_st_seq] Starting sequence
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =71; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =00; tend = 1
+ > Got req to handle
+Got Vlang transaction
+ treset =1; tdata =00; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =5d; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =3f; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =45; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =5a; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =6b; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =76; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =5f; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =78; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =44; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =40; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =7a; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =46; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =4e; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =6d; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =30; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =53; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =62; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =56; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =6d; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =50; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =69; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =62; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =5b; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =5c; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =57; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =5b; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =3c; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =55; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =76; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =36; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =5d; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =67; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =67; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =5d; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =67; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =5d; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =4e; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =63; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =4c; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =4c; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =4e; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =4d; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =75; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =3a; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =37; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =71; tend = 0
+sha.d(92) @ #0: env.agent.sequencer@@avl_st_seq [avl_st] Finishing sequence
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =54; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =32; tend = 0
+Generated 22 seq with 33 transactions
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =5b; tend = 0
+sha.d(68) @ #0: env.agent.sequencer@@avl_st_seq [avl_st_seq] Starting sequence
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =57; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =7a; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =68; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =69; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =47; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =3f; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =35; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =3a; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =64; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =00; tend = 1
+ > Got req to handle
+Got Vlang transaction
+ treset =1; tdata =00; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =43; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =52; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =50; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =58; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =65; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =58; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =61; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =55; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =6c; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =37; tend = 0
+sha.d(92) @ #0: env.agent.sequencer@@avl_st_seq [avl_st] Finishing sequence
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =64; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =65; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =77; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =46; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =5f; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =6a; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =5d; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =4c; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =68; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =50; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =45; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =79; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =4a; tend = 0
+Generated 23 seq with 52 transactions
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =69; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =30; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =32; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =69; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =33; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =67; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =53; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =5f; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =6b; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =52; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =00; tend = 1
+sha.d(68) @ #0: env.agent.sequencer@@avl_st_seq [avl_st_seq] Starting sequence
+ > Got req to handle
+Got Vlang transaction
+ treset =1; tdata =00; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =53; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =5a; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =61; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =47; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =6b; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =55; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =69; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =4d; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =4f; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =49; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =4a; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =34; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =41; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =60; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =5f; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =6c; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =6e; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =54; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =37; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =61; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =38; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =5a; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =76; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =4a; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =7a; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =67; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =32; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =30; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =33; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =4e; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =60; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =72; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =39; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =6e; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =68; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =41; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =69; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =4f; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =40; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =30; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =48; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =49; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =3b; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =4f; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =34; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =4c; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =73; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =72; tend = 0
+sha.d(92) @ #0: env.agent.sequencer@@avl_st_seq [avl_st] Finishing sequence
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =5c; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =3c; tend = 0
+Generated 24 seq with 19 transactions
+ > Got req to handle
+sha.d(68) @ #0: env.agent.sequencer@@avl_st_seq [avl_st_seq] Starting sequence
+Got Vlang transaction
+ treset =0; tdata =6c; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =43; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =00; tend = 1
+ > Got req to handle
+Got Vlang transaction
+ treset =1; tdata =00; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =66; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =73; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =42; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =43; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =3d; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =64; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =5a; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =72; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =74; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =56; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =4a; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =70; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =58; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =62; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =77; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =61; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =59; tend = 0
+sha.d(92) @ #0: env.agent.sequencer@@avl_st_seq [avl_st] Finishing sequence
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =36; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =75; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =00; tend = 1
+Generated 25 seq with 19 transactions
+sha.d(68) @ #0: env.agent.sequencer@@avl_st_seq [avl_st_seq] Starting sequence
+ > Got req to handle
+Got Vlang transaction
+ treset =1; tdata =00; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =6e; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =62; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =74; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =59; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =6c; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =39; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =7a; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =63; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =62; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =31; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =63; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =45; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =30; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =58; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =51; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =43; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =77; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =6e; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =46; tend = 0
+sha.d(92) @ #0: env.agent.sequencer@@avl_st_seq [avl_st] Finishing sequence
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =00; tend = 1
+Generated 26 seq with 46 transactions
+sha.d(68) @ #0: env.agent.sequencer@@avl_st_seq [avl_st_seq] Starting sequence
+ > Got req to handle
+Got Vlang transaction
+ treset =1; tdata =00; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =71; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =57; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =32; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =57; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =74; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =36; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =35; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =66; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =47; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =48; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =79; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =63; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =58; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =6d; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =31; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =55; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =36; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =5c; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =4a; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =30; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =30; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =6c; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =39; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =42; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =60; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =5a; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =6e; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =69; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =76; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =56; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =53; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =3e; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =69; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =40; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =5c; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =3c; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =73; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =64; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =62; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =55; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =35; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =36; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =3b; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =4f; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =5b; tend = 0
+sha.d(92) @ #0: env.agent.sequencer@@avl_st_seq [avl_st] Finishing sequence
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =66; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =00; tend = 1
+Generated 27 seq with 38 transactions
+sha.d(68) @ #0: env.agent.sequencer@@avl_st_seq [avl_st_seq] Starting sequence
+ > Got req to handle
+Got Vlang transaction
+ treset =1; tdata =00; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =66; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =6b; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =38; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =3d; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =7a; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =62; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =66; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =37; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =58; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =49; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =78; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =37; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =4b; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =34; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =4e; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =75; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =63; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =5f; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =79; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =4e; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =4c; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =71; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =62; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =60; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =34; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =30; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =49; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =51; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =39; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =4a; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =6a; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =67; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =3c; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =68; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =39; tend = 0
+sha.d(92) @ #0: env.agent.sequencer@@avl_st_seq [avl_st] Finishing sequence
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =32; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =45; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =68; tend = 0
+Generated 28 seq with 29 transactions
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =00; tend = 1
+sha.d(68) @ #0: env.agent.sequencer@@avl_st_seq [avl_st_seq] Starting sequence
+ > Got req to handle
+Got Vlang transaction
+ treset =1; tdata =00; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =43; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =45; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =76; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =62; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =3a; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =3f; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =72; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =66; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =70; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =39; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =60; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =62; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =48; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =68; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =5e; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =4c; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =44; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =78; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =68; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =74; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =69; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =30; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =45; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =48; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =63; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =73; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =42; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =33; tend = 0
+sha.d(92) @ #0: env.agent.sequencer@@avl_st_seq [avl_st] Finishing sequence
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =66; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =00; tend = 1
+Generated 29 seq with 24 transactions
+sha.d(68) @ #0: env.agent.sequencer@@avl_st_seq [avl_st_seq] Starting sequence
+ > Got req to handle
+Got Vlang transaction
+ treset =1; tdata =00; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =31; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =32; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =52; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =34; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =35; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =4c; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =59; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =4f; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =73; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =60; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =54; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =3c; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =6c; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =44; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =69; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =58; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =62; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =49; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =3b; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =43; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =61; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =48; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =6b; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =6b; tend = 0
+sha.d(92) @ #0: env.agent.sequencer@@avl_st_seq [avl_st] Finishing sequence
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =00; tend = 1
+Generated 30 seq with 54 transactions
+sha.d(68) @ #0: env.agent.sequencer@@avl_st_seq [avl_st_seq] Starting sequence
+ > Got req to handle
+Got Vlang transaction
+ treset =1; tdata =00; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =3b; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =36; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =7a; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =5e; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =59; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =6e; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =4e; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =5e; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =6e; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =64; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =4c; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =4f; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =35; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =44; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =35; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =62; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =37; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =5b; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =40; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =52; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =6d; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =3d; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =45; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =6c; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =64; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =61; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =5b; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =36; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =31; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =63; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =4f; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =42; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =60; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =35; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =68; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =57; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =4c; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =5e; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =5d; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =5c; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =72; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =6c; tend = 0
+sha.d(92) @ #0: env.agent.sequencer@@avl_st_seq [avl_st] Finishing sequence
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =39; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =78; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =3a; tend = 0
+Generated 31 seq with 29 transactions
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =53; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =58; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =54; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =4d; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =4a; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =5f; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =61; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =5d; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =6c; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =00; tend = 1
+sha.d(68) @ #0: env.agent.sequencer@@avl_st_seq [avl_st_seq] Starting sequence
+ > Got req to handle
+Got Vlang transaction
+ treset =1; tdata =00; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =5c; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =70; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =3d; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =51; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =42; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =5b; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =78; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =4a; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =4c; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =3f; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =3f; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =5a; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =60; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =72; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =71; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =5d; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =3d; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =6c; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =6a; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =3f; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =4e; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =79; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =3c; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =35; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =70; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =40; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =5d; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =72; tend = 0
+sha.d(92) @ #0: env.agent.sequencer@@avl_st_seq [avl_st] Finishing sequence
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =3f; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =00; tend = 1
+Generated 32 seq with 62 transactions
+sha.d(68) @ #0: env.agent.sequencer@@avl_st_seq [avl_st_seq] Starting sequence
+ > Got req to handle
+Got Vlang transaction
+ treset =1; tdata =00; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =5e; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =39; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =6f; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =30; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =41; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =4e; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =41; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =42; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =52; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =70; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =45; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =31; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =58; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =42; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =6d; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =72; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =61; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =63; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =74; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =74; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =6f; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =53; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =6e; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =30; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =44; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =4a; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =30; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =6f; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =5b; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =7a; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =35; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =6a; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =5d; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =61; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =31; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =38; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =61; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =54; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =35; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =53; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =6e; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =4d; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =75; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =35; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =72; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =76; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =75; tend = 0
+sha.d(92) @ #0: env.agent.sequencer@@avl_st_seq [avl_st] Finishing sequence
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =38; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =66; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =4f; tend = 0
+Generated 33 seq with 60 transactions
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =5c; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =52; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =3a; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =5c; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =51; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =69; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =5b; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =4d; tend = 0
+sha.d(68) @ #0: env.agent.sequencer@@avl_st_seq [avl_st_seq] Starting sequence
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =47; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =43; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =47; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =3b; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =00; tend = 1
+ > Got req to handle
+Got Vlang transaction
+ treset =1; tdata =00; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =3c; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =6b; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =5c; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =6d; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =51; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =70; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =3c; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =65; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =53; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =6d; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =57; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =34; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =69; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =5f; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =33; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =4f; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =43; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =66; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =30; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =53; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =68; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =48; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =72; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =77; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =60; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =77; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =6d; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =3b; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =4c; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =73; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =6f; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =47; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =48; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =70; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =69; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =51; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =65; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =34; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =5f; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =56; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =48; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =6c; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =3c; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =6e; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =3c; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =59; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =48; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =56; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =51; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =45; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =4e; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =3c; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =71; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =35; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =6d; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =41; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =78; tend = 0
+sha.d(92) @ #0: env.agent.sequencer@@avl_st_seq [avl_st] Finishing sequence
+Generated 34 seq with 31 transactions
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =39; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =48; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =4d; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =00; tend = 1
+sha.d(68) @ #0: env.agent.sequencer@@avl_st_seq [avl_st_seq] Starting sequence
+ > Got req to handle
+Got Vlang transaction
+ treset =1; tdata =00; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =4c; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =52; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =31; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =35; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =69; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =34; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =45; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =72; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =78; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =53; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =77; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =64; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =46; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =5e; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =45; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =67; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =50; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =79; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =36; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =5e; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =76; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =37; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =3e; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =75; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =60; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =4d; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =77; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =5d; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =50; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =59; tend = 0
+sha.d(92) @ #0: env.agent.sequencer@@avl_st_seq [avl_st] Finishing sequence
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =42; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =00; tend = 1
+Generated 35 seq with 25 transactions
+sha.d(68) @ #0: env.agent.sequencer@@avl_st_seq [avl_st_seq] Starting sequence
+ > Got req to handle
+Got Vlang transaction
+ treset =1; tdata =00; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =64; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =40; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =66; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =4c; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =4a; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =4a; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =43; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =69; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =5d; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =73; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =40; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =4f; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =69; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =52; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =40; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =6a; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =58; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =3e; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =73; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =46; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =6e; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =38; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =40; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =69; tend = 0
+sha.d(92) @ #0: env.agent.sequencer@@avl_st_seq [avl_st] Finishing sequence
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =78; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =00; tend = 1
+Generated 36 seq with 40 transactions
+sha.d(68) @ #0: env.agent.sequencer@@avl_st_seq [avl_st_seq] Starting sequence
+ > Got req to handle
+Got Vlang transaction
+ treset =1; tdata =00; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =4e; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =62; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =58; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =52; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =77; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =5c; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =50; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =48; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =7a; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =3f; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =71; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =4b; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =52; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =66; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =66; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =58; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =58; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =32; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =31; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =78; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =68; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =35; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =58; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =77; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =7a; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =43; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =48; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =50; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =6d; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =38; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =51; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =58; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =4d; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =3b; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =50; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =62; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =45; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =5e; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =7a; tend = 0
+sha.d(92) @ #0: env.agent.sequencer@@avl_st_seq [avl_st] Finishing sequence
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =54; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =00; tend = 1
+Generated 37 seq with 53 transactions
+sha.d(68) @ #0: env.agent.sequencer@@avl_st_seq [avl_st_seq] Starting sequence
+ > Got req to handle
+Got Vlang transaction
+ treset =1; tdata =00; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =39; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =4f; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =46; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =76; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =43; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =40; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =3f; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =69; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =50; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =4b; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =4c; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =45; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =49; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =52; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =35; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =5b; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =74; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =72; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =54; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =6a; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =53; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =78; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =78; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =73; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =37; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =68; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =59; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =48; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =63; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =49; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =79; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =6f; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =48; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =6e; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =5f; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =34; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =4c; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =58; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =66; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =47; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =68; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =72; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =44; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =38; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =31; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =37; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =3f; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =38; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =41; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =68; tend = 0
+sha.d(92) @ #0: env.agent.sequencer@@avl_st_seq [avl_st] Finishing sequence
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =3c; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =40; tend = 0
+Generated 38 seq with 20 transactions
+sha.d(68) @ #0: env.agent.sequencer@@avl_st_seq [avl_st_seq] Starting sequence
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =54; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =00; tend = 1
+ > Got req to handle
+Got Vlang transaction
+ treset =1; tdata =00; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =6d; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =6e; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =73; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =51; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =4e; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =70; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =6f; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =47; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =40; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =60; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =66; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =3f; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =34; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =32; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =5a; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =65; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =4c; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =75; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =45; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =4e; tend = 0
+sha.d(92) @ #0: env.agent.sequencer@@avl_st_seq [avl_st] Finishing sequence
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =00; tend = 1
+Generated 39 seq with 60 transactions
+sha.d(68) @ #0: env.agent.sequencer@@avl_st_seq [avl_st_seq] Starting sequence
+ > Got req to handle
+Got Vlang transaction
+ treset =1; tdata =00; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =3f; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =5f; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =37; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =79; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =6e; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =74; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =64; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =6f; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =59; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =31; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =3b; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =72; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =36; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =49; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =54; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =33; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =72; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =34; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =69; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =61; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =74; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =34; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =3b; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =68; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =69; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =4a; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =3c; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =4b; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =45; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =74; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =61; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =68; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =46; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =47; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =5e; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =6b; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =5d; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =70; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =5c; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =66; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =55; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =6a; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =5c; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =6b; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =47; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =62; tend = 0
+sha.d(92) @ #0: env.agent.sequencer@@avl_st_seq [avl_st] Finishing sequence
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =4d; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =4a; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =33; tend = 0
+Generated 40 seq with 21 transactions
+sha.d(68) @ #0: env.agent.sequencer@@avl_st_seq [avl_st_seq] Starting sequence
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =6e; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =53; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =42; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =49; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =35; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =3a; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =3f; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =30; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =46; tend = 0
+sha.d(92) @ #0: env.agent.sequencer@@avl_st_seq [avl_st] Finishing sequence
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =58; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =35; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =00; tend = 1
+Generated 41 seq with 59 transactions
+sha.d(68) @ #0: env.agent.sequencer@@avl_st_seq [avl_st_seq] Starting sequence
+ > Got req to handle
+Got Vlang transaction
+ treset =1; tdata =00; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =5c; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =78; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =46; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =31; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =3e; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =37; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =37; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =47; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =5b; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =37; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =68; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =64; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =46; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =75; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =30; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =6e; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =67; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =32; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =50; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =7a; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =6f; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =00; tend = 1
+ > Got req to handle
+Got Vlang transaction
+ treset =1; tdata =00; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =4d; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =70; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =61; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =78; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =43; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =73; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =51; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =30; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =71; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =35; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =63; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =71; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =6f; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =48; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =5e; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =57; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =6c; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =79; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =48; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =60; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =53; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =44; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =46; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =33; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =76; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =46; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =62; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =42; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =45; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =37; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =57; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =30; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =75; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =3f; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =70; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =3d; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =72; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =32; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =3e; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =4c; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =54; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =38; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =5d; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =50; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =76; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =70; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =56; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =76; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =4d; tend = 0
+sha.d(92) @ #0: env.agent.sequencer@@avl_st_seq [avl_st] Finishing sequence
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =70; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =4e; tend = 0
+Generated 42 seq with 50 transactions
+sha.d(68) @ #0: env.agent.sequencer@@avl_st_seq [avl_st_seq] Starting sequence
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =6b; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =64; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =42; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =69; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =4b; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =55; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =32; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =4a; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =00; tend = 1
+ > Got req to handle
+Got Vlang transaction
+ treset =1; tdata =00; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =62; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =42; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =61; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =41; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =6a; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =54; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =66; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =6a; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =62; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =76; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =60; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =54; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =3d; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =67; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =55; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =4d; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =4e; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =4c; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =71; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =51; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =48; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =33; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =5b; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =61; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =52; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =6e; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =6f; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =6c; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =76; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =5c; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =45; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =79; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =64; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =77; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =61; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =6d; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =55; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =54; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =72; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =43; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =43; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =75; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =4c; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =68; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =59; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =7a; tend = 0
+sha.d(92) @ #0: env.agent.sequencer@@avl_st_seq [avl_st] Finishing sequence
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =4a; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =6d; tend = 0
+Generated 43 seq with 20 transactions
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =6d; tend = 0
+sha.d(68) @ #0: env.agent.sequencer@@avl_st_seq [avl_st_seq] Starting sequence
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =49; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =00; tend = 1
+ > Got req to handle
+Got Vlang transaction
+ treset =1; tdata =00; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =79; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =57; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =5b; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =76; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =70; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =56; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =6e; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =3b; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =3b; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =56; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =68; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =31; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =64; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =50; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =75; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =31; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =70; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =35; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =62; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =7a; tend = 0
+sha.d(92) @ #0: env.agent.sequencer@@avl_st_seq [avl_st] Finishing sequence
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =00; tend = 1
+Generated 44 seq with 55 transactions
+sha.d(68) @ #0: env.agent.sequencer@@avl_st_seq [avl_st_seq] Starting sequence
+ > Got req to handle
+Got Vlang transaction
+ treset =1; tdata =00; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =5c; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =5d; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =78; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =4f; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =69; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =36; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =4d; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =67; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =67; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =75; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =40; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =45; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =58; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =52; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =3d; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =52; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =61; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =7a; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =4a; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =33; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =5c; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =57; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =75; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =50; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =52; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =69; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =3e; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =58; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =69; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =31; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =73; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =64; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =71; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =3c; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =32; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =4d; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =49; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =6f; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =63; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =7a; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =71; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =4a; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =37; tend = 0
+sha.d(92) @ #0: env.agent.sequencer@@avl_st_seq [avl_st] Finishing sequence
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =38; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =4c; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =65; tend = 0
+Generated 45 seq with 46 transactions
+ > Got req to handle
+sha.d(68) @ #0: env.agent.sequencer@@avl_st_seq [avl_st_seq] Starting sequence
+Got Vlang transaction
+ treset =0; tdata =63; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =56; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =6c; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =4d; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =6e; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =37; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =53; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =68; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =5f; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =00; tend = 1
+ > Got req to handle
+Got Vlang transaction
+ treset =1; tdata =00; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =41; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =43; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =4f; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =35; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =6b; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =33; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =42; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =5a; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =73; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =5c; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =70; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =44; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =4e; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =6b; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =56; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =53; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =72; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =56; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =5e; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =5b; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =6d; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =7a; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =5e; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =4b; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =4c; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =53; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =5f; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =44; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =77; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =4a; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =66; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =53; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =38; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =66; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =57; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =30; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =77; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =56; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =3f; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =4c; tend = 0
+sha.d(92) @ #0: env.agent.sequencer@@avl_st_seq [avl_st] Finishing sequence
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =59; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =75; tend = 0
+Generated 46 seq with 28 transactions
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =5b; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =68; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =4f; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =5f; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =00; tend = 1
+sha.d(68) @ #0: env.agent.sequencer@@avl_st_seq [avl_st_seq] Starting sequence
+ > Got req to handle
+Got Vlang transaction
+ treset =1; tdata =00; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =67; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =37; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =73; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =3e; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =68; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =43; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =48; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =6b; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =41; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =63; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =4a; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =6f; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =32; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =56; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =53; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =57; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =3a; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =48; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =6f; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =32; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =3d; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =4b; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =37; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =35; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =3b; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =5f; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =30; tend = 0
+sha.d(92) @ #0: env.agent.sequencer@@avl_st_seq [avl_st] Finishing sequence
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =3d; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =00; tend = 1
+Generated 47 seq with 60 transactions
+sha.d(68) @ #0: env.agent.sequencer@@avl_st_seq [avl_st_seq] Starting sequence
+ > Got req to handle
+Got Vlang transaction
+ treset =1; tdata =00; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =68; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =4e; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =47; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =57; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =3e; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =51; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =64; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =39; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =51; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =55; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =5e; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =4e; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =42; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =41; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =5a; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =37; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =6e; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =69; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =48; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =69; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =4c; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =78; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =74; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =4e; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =78; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =38; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =64; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =39; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =49; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =36; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =3b; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =79; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =5b; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =7a; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =39; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =3f; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =53; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =4e; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =35; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =71; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =59; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =30; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =62; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =47; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =38; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =33; tend = 0
+sha.d(92) @ #0: env.agent.sequencer@@avl_st_seq [avl_st] Finishing sequence
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =4e; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =77; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =3b; tend = 0
+Generated 48 seq with 19 transactions
+sha.d(68) @ #0: env.agent.sequencer@@avl_st_seq [avl_st_seq] Starting sequence
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =3d; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =7a; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =3b; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =73; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =35; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =38; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =63; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =57; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =55; tend = 0
+sha.d(92) @ #0: env.agent.sequencer@@avl_st_seq [avl_st] Finishing sequence
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =50; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =5c; tend = 0
+Generated 49 seq with 41 transactions
+sha.d(68) @ #0: env.agent.sequencer@@avl_st_seq [avl_st_seq] Starting sequence
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =00; tend = 1
+ > Got req to handle
+Got Vlang transaction
+ treset =1; tdata =00; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =3d; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =48; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =39; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =3d; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =6f; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =62; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =40; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =6e; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =56; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =40; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =41; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =4c; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =60; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =4a; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =4b; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =4c; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =3d; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =57; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =47; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =00; tend = 1
+ > Got req to handle
+Got Vlang transaction
+ treset =1; tdata =00; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =51; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =67; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =30; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =41; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =38; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =66; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =38; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =51; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =4e; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =55; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =35; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =3e; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =4e; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =40; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =78; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =5b; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =44; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =46; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =60; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =3e; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =77; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =4d; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =38; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =33; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =46; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =4b; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =3e; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =5f; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =3f; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =61; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =35; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =4c; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =35; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =56; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =63; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =67; tend = 0
+sha.d(92) @ #0: env.agent.sequencer@@avl_st_seq [avl_st] Finishing sequence
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =56; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =6f; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =69; tend = 0
+Generated 50 seq with 46 transactions
+ > Got req to handle
+sha.d(68) @ #0: env.agent.sequencer@@avl_st_seq [avl_st_seq] Starting sequence
+Got Vlang transaction
+ treset =0; tdata =3b; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =44; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =00; tend = 1
+ > Got req to handle
+Got Vlang transaction
+ treset =1; tdata =00; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =65; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =34; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =62; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =42; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =39; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =79; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =32; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =62; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =6a; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =37; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =3c; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =43; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =6a; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =6b; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =53; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =79; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =3f; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =6d; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =7a; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =3d; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =40; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =35; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =55; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =55; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =39; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =71; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =4b; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =66; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =6a; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =33; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =5e; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =5d; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =5b; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =65; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =30; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =6e; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =42; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =4e; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =67; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =59; tend = 0
+sha.d(92) @ #0: env.agent.sequencer@@avl_st_seq [avl_st] Finishing sequence
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =3a; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =64; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =35; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =5b; tend = 0
+Generated 51 seq with 41 transactions
+sha.d(68) @ #0: env.agent.sequencer@@avl_st_seq [avl_st_seq] Starting sequence
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =64; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =3c; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =00; tend = 1
+ > Got req to handle
+Got Vlang transaction
+ treset =1; tdata =00; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =43; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =48; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =4e; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =63; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =33; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =31; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =64; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =50; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =6f; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =57; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =69; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =72; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =5e; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =49; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =5a; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =69; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =3e; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =46; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =3b; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =77; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =3c; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =3c; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =47; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =3d; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =5e; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =34; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =3a; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =5e; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =61; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =41; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =51; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =39; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =65; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =34; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =49; tend = 0
+sha.d(92) @ #0: env.agent.sequencer@@avl_st_seq [avl_st] Finishing sequence
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =78; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =79; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =5d; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =72; tend = 0
+Generated 52 seq with 47 transactions
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =57; tend = 0
+sha.d(68) @ #0: env.agent.sequencer@@avl_st_seq [avl_st_seq] Starting sequence
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =65; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =00; tend = 1
+ > Got req to handle
+Got Vlang transaction
+ treset =1; tdata =00; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =38; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =42; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =38; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =36; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =74; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =35; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =75; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =35; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =64; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =48; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =57; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =51; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =60; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =33; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =36; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =5a; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =51; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =61; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =76; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =6f; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =4a; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =6e; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =69; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =37; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =4d; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =4d; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =3e; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =73; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =78; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =70; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =52; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =63; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =73; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =58; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =78; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =46; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =37; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =37; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =51; tend = 0
+sha.d(92) @ #0: env.agent.sequencer@@avl_st_seq [avl_st] Finishing sequence
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =65; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =43; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =63; tend = 0
+Generated 53 seq with 46 transactions
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =43; tend = 0
+sha.d(68) @ #0: env.agent.sequencer@@avl_st_seq [avl_st_seq] Starting sequence
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =77; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =35; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =4b; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =67; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =00; tend = 1
+ > Got req to handle
+Got Vlang transaction
+ treset =1; tdata =00; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =30; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =62; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =48; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =37; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =75; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =33; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =63; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =72; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =5c; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =67; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =68; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =5e; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =3f; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =35; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =36; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =76; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =64; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =4f; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =38; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =40; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =70; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =47; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =34; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =4c; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =3a; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =72; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =47; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =73; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =6d; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =6c; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =4a; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =61; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =43; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =42; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =42; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =5e; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =70; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =5e; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =6b; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =6f; tend = 0
+sha.d(92) @ #0: env.agent.sequencer@@avl_st_seq [avl_st] Finishing sequence
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =6e; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =30; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =55; tend = 0
+Generated 54 seq with 52 transactions
+sha.d(68) @ #0: env.agent.sequencer@@avl_st_seq [avl_st_seq] Starting sequence
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =6a; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =75; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =62; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =00; tend = 1
+ > Got req to handle
+Got Vlang transaction
+ treset =1; tdata =00; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =66; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =50; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =45; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =38; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =35; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =3c; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =5d; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =4b; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =62; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =47; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =34; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =6e; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =39; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =5b; tend = 0
+ > Got req to handle
+Got Vlang transaction
+ treset =0; tdata =48; tend = 0
+ > Got req to handle
+Got 

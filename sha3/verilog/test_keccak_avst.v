@@ -1,0 +1,172 @@
+`timescale 1ns / 1ps
+`define CLKP 20
+
+module test_keccak;
+
+   // Inputs
+   reg clk;
+   reg reset;
+   reg [7:0] data_in;
+   reg 	     end_in;
+   reg 	     valid_in;
+   reg 	     ready_out;
+
+   // Outputs
+   wire      ready_in;
+   wire [7:0] data_out;
+   wire       valid_out;
+   wire       end_out;
+
+   // Var
+   integer    i;
+
+   // required by pull_sha
+   reg [7:0]  tdata;
+   reg 	      tend;
+   reg 	      tfinish;
+   reg 	      tvalid;
+   reg 	      treset;
+   reg 	      retval;
+
+   // Instantiate the Unit Under Test (UUT)
+   keccak_avst uut (
+		    .clk(clk),
+		    .reset(reset),
+		    .data_in(data_in),
+		    .end_in(end_in),
+		    .valid_in(valid_in),
+		    .ready_out(ready_out),
+		    .ready_in(ready_in),
+		    .data_out(data_out),
+		    .valid_out(valid_out),
+		    .end_out(end_out)
+		    );
+
+   initial begin: driver
+      #200;
+      forever begin
+	 @(negedge clk);
+	 #(`CLKP/4);
+	 if(ready_in == 1) begin
+	    retval = $pull_sha(tvalid, treset, tdata, tend, tfinish);
+
+	    if (tfinish == 1) begin
+	       $finish;
+	    end
+
+	    if (treset) begin
+	       reset <= 1;
+	       data_in <= 0;
+	       end_in <= 0;
+	       valid_in <= 0;
+	    end // if (treset)
+	    else if (tend == 0) begin
+	       reset <= 0;
+	       data_in <= tdata;
+	       end_in <= tend;
+	       valid_in <= 1;
+	    end // if (tend == 0)
+	    else begin
+	       reset <= 0;
+	       data_in <= 0;
+	       end_in <= 1;
+	       valid_in <= 1;
+	       @(negedge clk);
+	       #(`CLKP/4);
+	       end_in <= 0;
+	       valid_in <= 0;
+/* -----\/----- EXCLUDED -----\/-----
+	       while(end_out == 0) begin
+		  @(negedge clk);
+		  #(`CLKP/4);
+	       end
+ -----/\----- EXCLUDED -----/\----- */
+	    end
+	 end // if (ready_in == 1)
+      end // forever begin
+   end // block: driver
+
+   initial begin: snooper
+      #200;
+      forever begin
+	 @(posedge clk);
+	 #(`CLKP/4);
+	 retval = $resp_sha(valid_out, reset, data_out, end_out);
+      end
+   end // block: snooper
+   
+
+   
+   
+   initial begin
+      $dumpfile("filename.vcd");
+      $dumpvars(4, uut);
+      $dumpon;
+      clk = 0;
+      forever begin
+	 #(`CLKP/2);
+	 clk = ~ clk;
+      end // forever begin
+   end // initial begin
+
+   initial begin
+      reset = 0;
+      #100;
+      ready_out = 1;
+      reset = 1;
+      #100;
+      reset = 0;
+   end
+   
+
+   /* -----\/----- EXCLUDED -----\/-----
+    $display("reset");
+    reset = 1; #(`P); reset = 0;
+    valid_in = 1; end_in = 0;
+    data_in = "T"; #(`P);
+    data_in = "h"; #(`P);
+    data_in = "e"; #(`P);
+    data_in = " "; #(`P);
+    data_in = "q"; #(`P);
+    data_in = "u"; #(`P);
+    data_in = "i"; #(`P);
+    data_in = "c"; #(`P);
+    data_in = "k"; #(`P);
+    data_in = " "; #(`P);
+    data_in = "b"; #(`P);
+    data_in = "r"; #(`P);
+    data_in = "o"; #(`P);
+    data_in = "w"; #(`P);
+    data_in = "n"; #(`P);
+    data_in = " "; #(`P);
+    data_in = "f"; #(`P);
+    data_in = "o"; #(`P);
+    data_in = "x"; #(`P);
+    data_in = " "; #(`P);
+    data_in = "j"; #(`P);
+    data_in = "u"; #(`P);
+    data_in = "m"; #(`P);
+    data_in = "p"; #(`P);
+    data_in = "s"; #(`P);
+    data_in = " "; #(`P);
+    data_in = "o"; #(`P);
+    data_in = "v"; #(`P);
+    data_in = "e"; #(`P);
+    data_in = "r"; #(`P);
+    data_in = " "; #(`P);
+    data_in = "t"; #(`P);
+    data_in = "h"; #(`P);
+    data_in = "e"; #(`P);
+    data_in = " "; #(`P);
+    data_in = "l"; #(`P);
+    data_in = "a"; #(`P);
+    data_in = "z"; #(`P);
+    data_in = "y"; #(`P);
+    data_in = " "; #(`P);
+    data_in = "d"; #(`P);
+    data_in = "o"; #(`P);
+    data_in = "g"; #(`P);
+    data_in = " "; end_in = 1; #(`P); /-* !!! not data_in = "dog" *-/
+    -----/\----- EXCLUDED -----/\----- */
+
+endmodule

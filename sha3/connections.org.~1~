@@ -1,0 +1,31 @@
+
+
++---+
+| MRAA | Level   | Chip Kit  | Edison Breakout | RTL         | Direction  |
+|      | Shifter |           |                 |             | wrt edison |
+|   44 | A1      | ck_io[0]  | J20-3           | data_out[0] | input      |
+|   45 | A2      | ck_io[1]  | J20-4           | data_out[1] | input      |
+|   46 | A3      | ck_io[2]  | J20-5           | data_out[2] | input      |
+|   47 | A4      | ck_io[3]  | J20-6           | data_out[3] | input      |
+|   48 | A5      | ck_io[4]  | J20-7           | data_out[4] | input      |
+|   49 | A6      | ck_io[5]  | J20-8           | data_out[5] | input      |
+|   50 | A7      | ck_io[6]  | J20-9           | data_out[6] | input      |
+|   51 | A8      | ck_io[7]  | J20-10          | data_out[7] | input      |
+|   52 | A1      | ck_io[8]  | J20-11          | end_out     | input      |
+|   53 | A2      | ck_io[9]  | J20-12          | valid_out   | input      |
+|   54 | A3      | ck_io[10] | J20-13          | ready_in    | input      |
+|   55 | A4      | ck_io[26] | J20-14          | data_in[0]  | output     |
+|   31 | A5      | ck_io[27] | J19-4           | data_in[1]  | output     |
+|   32 | A6      | ck_io[28] | J19-5           | data_in[2]  | output     |
+|   33 | A7      | ck_io[29] | J19-6           | data_in[3]  | output     |
+|   35 | A8      | ck_io[30] | J19-8           | data_in[4]  | output     |
+|   36 | A1      | ck_io[31] | J19-9           | data_in[5]  | output     |
+|   37 | A2      | ck_io[32] | J19-10          | data_in[6]  | output     |
+|   38 | A3      | ck_io[33] | J19-11          | data_in[7]  | output     |
+|   39 | A4      | ck_io[34] | J19-12          | end_in      | output     |
+|   40 | A5      | ck_io[35] | J19-13          | valid_in    | output     |
+|   41 | A6      | ck_io[36] | J19-14          | ready_out   | output     |
+|   25 | A7      | ck_io[37] | J18-12          | reset       | output     |
+|   26 | A8      | ck_io[38] | J18-13          | clk         | output     |
++---+	
+
